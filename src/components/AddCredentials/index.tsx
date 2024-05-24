@@ -61,7 +61,7 @@ const AddCredentials = ({ setState }: any) => {
             id="website"
             onChange={(e) => setData({ ...data, website: e.target.value })}
             value={data.website}
-            placeholder="www.thehexaa.com"
+            placeholder="www.abc.com"
             name="website"
             className="w-full  rounded text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
           />

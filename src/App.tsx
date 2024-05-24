@@ -27,7 +27,7 @@ const Layout: React.FC<LayoutProps> = ({ children, setState, state }) => {
           }}
           className="cursor-pointer text-lg p-2 gap-2 flex items-center uppercase font-bold"
         >
-          passbolt
+          pass Vault
           <img src={Logo} className="w-6" alt="Vite logo" />
         </div>
         {(state === "home" || state === "seeAll") && (
